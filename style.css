@@ -1,0 +1,164 @@
+/* start css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end css reset */
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif,"微軟正黑體";
+}
+
+/* start general */
+.container-inner,.footer-inner,.skill-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 32px;
+    line-height: 43px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+}
+.title span{
+    font-size: 24px;
+    line-height: 28px;
+    color: #A00404;
+    padding-left: 16px;
+}
+li, p{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-72{
+    margin-bottom: 72px;
+}
+/* end general */
+
+h1{
+    font-size: 80px;
+    line-height: 94px;
+    border-bottom: 2px solid #000;
+    padding-top: 47px;
+    padding-bottom: 17px;
+}
+.container img{
+    padding: 48px 0px;
+}
+
+/* start skill */
+.skill, .footer{
+    background-color: #415165;
+    padding-bottom: 36px;
+    color: #fff;
+    text-align: center;
+}
+.skill{
+    padding-top: 34px;
+}
+.skill .title, .footer .title{
+    line-height: 45px;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+}
+.skill .title span, .footer .title span{
+    color: #fff;
+}
+.skill ul, .footer-inner ul{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 36px; 
+}
+.skill ul{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+}
+/* end skill */
+
+/* start work */
+.work ul{
+    border-left: 1px solid #96A9C4;
+    margin-left: 24px;
+    padding-left: 24px;
+}
+.work img{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.work p:nth-child(3){
+    font-size: 20px;
+    line-height: 30px; 
+}
+/* end work */
+
+/* start footer */
+.footer{
+    padding-top: 24px; 
+}
+.footer-inner ul li{
+    text-align: center;
+}
+.footer-inner a:nth-child(2){
+    margin-left: 24px;
+    margin-right: 24px;
+}
+/* end footer */
